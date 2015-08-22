@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SharpKindleHighlightsExtractorLib", "SharpKindleHighlightsExtractorLib\SharpKindleHighlightsExtractorLib.fsproj", "{E0CE30D3-6F10-4493-AEFB-A53AC44CE662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHighlightsExtractorExamples", "CSharpHighlightExamples\CSharpHighlightsExtractorExamples.csproj", "{456675FC-2CDD-4E9F-89EE-FC59269F3978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KindleToOneNoteOnenotePlugin", "KindleToOneNote\KindleToOneNoteOnenotePlugin.csproj", "{D8D35391-5E85-44EC-A939-16B47C317A2D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupKindleToOneNotePluginInstaller", "SetupKindleToOneNotePlugin\SetupKindleToOneNotePlugin.vdproj", "{8DDD8D34-D718-4A0F-9DDF-65624247BD5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0CE30D3-6F10-4493-AEFB-A53AC44CE662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CE30D3-6F10-4493-AEFB-A53AC44CE662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CE30D3-6F10-4493-AEFB-A53AC44CE662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CE30D3-6F10-4493-AEFB-A53AC44CE662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456675FC-2CDD-4E9F-89EE-FC59269F3978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456675FC-2CDD-4E9F-89EE-FC59269F3978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456675FC-2CDD-4E9F-89EE-FC59269F3978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456675FC-2CDD-4E9F-89EE-FC59269F3978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D35391-5E85-44EC-A939-16B47C317A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D35391-5E85-44EC-A939-16B47C317A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D35391-5E85-44EC-A939-16B47C317A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D35391-5E85-44EC-A939-16B47C317A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDD8D34-D718-4A0F-9DDF-65624247BD5C}.Debug|Any CPU.ActiveCfg = Debug
+		{8DDD8D34-D718-4A0F-9DDF-65624247BD5C}.Debug|Any CPU.Build.0 = Debug
+		{8DDD8D34-D718-4A0F-9DDF-65624247BD5C}.Release|Any CPU.ActiveCfg = Release
+		{8DDD8D34-D718-4A0F-9DDF-65624247BD5C}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

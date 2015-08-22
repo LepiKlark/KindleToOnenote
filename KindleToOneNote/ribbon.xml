@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" loadImage="GetImage">
+    <ribbon>
+        <tabs>
+            <tab id="KindleSync" label="Kindle">
+                <group id="KindleOperations" label="Kindle operations">
+                    <button id="buttonTriggerSync" label="Sync your Kindle" size="large" screentip="Press to sync your Kindle highlights." onAction="KindleSync" image="kindle.png"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
